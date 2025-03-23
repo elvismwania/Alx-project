@@ -1,0 +1,36 @@
+.currency-converter {
+  min-width: 30rem;
+  max-width: 80rem;
+  background-color: rgb(76, 145, 206);
+  padding: 1rem;
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px;
+}
+
+.currency-converter form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.currency-converter label {
+  display: block;
+  justify-content: space-between;
+}
+
+.currency-converter input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.currency-converter select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 1rem;
+}
