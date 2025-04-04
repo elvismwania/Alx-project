@@ -45,7 +45,7 @@ function CurrencyConverter({ url }) {
   const fetchRate = async () => {
     if (!amount) {
       setConvertedAmount(0);
-      setError(' enter amount .');
+      setError(' Please input amount');
       return;
     }
     setError(''); 
