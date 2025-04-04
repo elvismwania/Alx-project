@@ -1,5 +1,5 @@
 Elvis Mwania Mutwiwa
-Github repo : 
+Github repo : https://github.com/elvismwania/AlxCapstoneProject-CurrencyConverter
 elvismwania@gmail.com
 ALX Front End Web Development final project
 
