@@ -1,36 +1,113 @@
 .currency-converter {
-  min-width: 30rem;
-  max-width: 80rem;
-  background-color: rgb(76, 145, 206);
-  padding: 1rem;
-  box-shadow: 0 0 5px gray;
-  border-radius: 5px;
+  width: 500%;
+  max-width: 500px;
+  position: relative;
+  background: linear-gradient(rgb(2, 2, 2), rgb(15, 15, 15)); 
+  padding: 3rem;
+  box-shadow: 0 0 5px rgb(73, 119, 23);
+  border-radius: 10px;
+  
+}
+
+
+.currency-converter h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: pacifico;
+  
+}
+.currency-converter h2 {
+  font-size: 2.4rem; 
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .currency-converter form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2.0rem;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
 .currency-converter label {
   display: block;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
 }
 
 .currency-converter input {
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: 1px solid gray;
-  padding: 5px;
-  font-size: 1rem;
+  padding: 11.5rem;
+  border-radius: 17px;
+  border: 1px solid rgb(216, 106, 15);
+  padding: 15px;
+  font-size: 1.5rem;
 }
 
+
 .currency-converter select {
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: 1px solid gray;
-  padding: 5px;
-  font-size: 1rem;
+  padding: 10.75rem;
+  border-radius: 507px;
+  border: 25px solid rgb(27, 158, 245);
+  padding: 10px;
+  font-size: 1.5rem;
+  box-shadow: 0 0 5px rgb(73, 119, 23);
 }
+
+.currency-converter label {
+  font-size: 2.1rem; 
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.converter-content button {
+  width:  10em;
+  height: 4em;
+  margin: 0.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ button:hover {
+  color: black;
+ }
+ 
+ button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+.converter-content button:hover {
+  background-color: #0056b3; 
+}
+
+
+
+
+
+

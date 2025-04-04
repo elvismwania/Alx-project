@@ -21,13 +21,16 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('./assets/pexels-steve-1269968.jpg');
 }
 
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #92ac1d;
     background-color: #ffffff;
   }
+
+  
   
 }
